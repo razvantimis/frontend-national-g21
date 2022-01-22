@@ -28,7 +28,7 @@
 4. Dupa instalare, deschidem un terminal ( cmd, git bash ) si rulam 'git --version'
 
 
-Link google sheet: https://platforma.scoalainformala.ro/mod/url/view.php?id=78044
+Link google sheet: https://platforma.scoalainformala.ro/mod/url/view.php?id=86346
 
 ## Folosesc extensile:
  1. GitLens in vscode
