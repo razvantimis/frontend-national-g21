@@ -7,3 +7,7 @@ Va mai puteti uita peste comenzile :
 1. git cherry-pick - https://git-scm.com/docs/git-cherry gasiti aici doc 
 2. git merge - https://git-scm.com/docs/git-merge
 3. git rebase - https://git-scm.com/docs/git-rebase
+
+## Links utils
+1. https://learngitbranching.js.org/ - learn
+2. https://www.sourcetreeapp.com/ 
