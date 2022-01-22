@@ -1,4 +1,4 @@
-Intrebari https://www.mentimeter.com/s/4b901bb5ea0edb5aabae479ce4b2456b/aeb887f664d3
+Intrebari https://www.menti.com/ctb5wnfz9y
 ## Web Intro
 1. Internet
 2. TCP/IP Model -  https://youtu.be/OTwp3xtd4dg?t=159
@@ -12,4 +12,7 @@ Intrebari https://www.mentimeter.com/s/4b901bb5ea0edb5aabae479ce4b2456b/aeb887f6
 9. Developer Tools
 
 
+## Git intro  - https://docs.github.com/en/get-started/quickstart/hello-world
+1. Ce este git si github?
+2. De ce il folosim?
 

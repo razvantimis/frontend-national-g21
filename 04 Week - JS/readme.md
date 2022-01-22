@@ -9,8 +9,7 @@
 5. Flow control: if , for, switch, while, do {} while()
 
 
-# 02. Workshop lista cumparaturi
-
+# 02. Workshop lista cumparaturi - https://codesandbox.io/ ( sa va faceti login cu github )
 
 ## Links:
 
