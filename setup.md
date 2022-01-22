@@ -9,6 +9,8 @@
 
 4. Instalarea git - download link https://git-scm.com/downloads
 
+5. Cont pe https://codesandbox.io/  ( se face login cu github account) - folosim pentru workshop
+
 ## Cum ne facem un cont de github?
 
 1. Intra pe https://github.com/
