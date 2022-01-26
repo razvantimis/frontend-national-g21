@@ -16,3 +16,16 @@ Intrebari https://www.menti.com/ctb5wnfz9y
 1. Ce este git si github?
 2. De ce il folosim?
 
+## Git comands
+### Local
+- git init
+- git status
+- git add
+- git commit
+- git checkout
+- git merge
+
+## Remote
+- git push
+- git pull
+- git add remote

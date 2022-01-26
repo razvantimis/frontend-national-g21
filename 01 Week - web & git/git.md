@@ -7,7 +7,7 @@
 5. `git log` afiseaza history-ul de commituri
 6. `git checkout -b {nume branch}` se creaza un branch nou
 
-# Steps
+# Steps remote
 
 1. `git remote add origin git@github.com:razvantimis/my-repo.git` face legatura cu repo local
 2. `git push -u origin main` - duce schimbarile ( fisierele ) locale pe remote
