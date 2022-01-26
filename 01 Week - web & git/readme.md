@@ -18,11 +18,12 @@ Intrebari https://www.menti.com/ctb5wnfz9y
 
 ## Git comands
 ### Local
-- git init
-- git status
-- git add
-- git commit
-- git checkout
+- git init - va initializa un repo local ( intr-un folder )
+- git status - vedem starea repoului nostru
+- `git add {path file}`- adauga fisierele in staging
+   - `git add .` ca sa adaugam toate fisierele 
+- `git commit -m "{test msg}"` - freez la files din staging
+- git checkout - pot sa navigez intre branch-uri sau commituri
 - git merge
 
 ## Remote
