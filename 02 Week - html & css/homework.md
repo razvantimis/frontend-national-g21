@@ -7,6 +7,9 @@ Figma design: https://www.figma.com/file/FO2RgNsZtGg3MkwCU9SO2l/Blog?node-id=0%3
 Se doreste creerea unui website cu o tematica specifica. 
 Tematica poate fi alesa de catre voi, cateva sugestii: retete culinare, educatie financiara, poezie, cancan, news, video games, filme.
 
+** Focus pe structura html **
+** CSS/Layout poate fi facut la urmatoare tema  **
+
 1. Website va avea cel putin 3 pagini:
     1. home.html
     2. post-one.html, post-two.html
