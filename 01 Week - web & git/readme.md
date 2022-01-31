@@ -30,7 +30,7 @@ Intrebari https://www.menti.com/ctb5wnfz9y
 - git push
 - git pull
 - git add remote
-- git clone
+- git clone - aducem local repo-ul
 
 
 ## Advance
