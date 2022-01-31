@@ -7,6 +7,8 @@
 6. `<header>, <nav>, <main> ,<article>, <section> <aside>, <footer>`
 7. Tabindex => pentru navigarea cu tab
 
+Extensie de vscode: live server
+
 ## 2. Intro CSS
 1. Cum este css? Cum il folosim?
 2. CSS Syntax 
