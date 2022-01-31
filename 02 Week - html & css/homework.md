@@ -8,7 +8,7 @@ Se doreste creerea unui website cu o tematica specifica.
 Tematica poate fi alesa de catre voi, cateva sugestii: retete culinare, educatie financiara, poezie, cancan, news, video games, filme.
 
 ** Focus pe structura html **
-** CSS/Layout poate fi facut la urmatoare tema  **
+** CSS/Layout minimal  **
 
 1. Website va avea cel putin 3 pagini:
     1. home.html
