@@ -26,3 +26,13 @@ Weekend-ul asta, pe langa tema, sa va distract cu git :D
 ## Links utils
 1. https://learngitbranching.js.org/ - learn
 2. https://www.sourcetreeapp.com/ 
+
+
+# Tema noua steps
+
+1. Facem git checkout main - sa fim pe main branch
+
+Probleme
+1. Am facut branchul de tema din vecheul branch ( tema trecuta)
+  a. Solutie: facem git checkout main, facem un nou branch si face copy past la cod
+  b. 

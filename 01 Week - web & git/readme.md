@@ -31,3 +31,9 @@ Intrebari https://www.menti.com/ctb5wnfz9y
 - git pull
 - git add remote
 - git clone
+
+
+## Advance
+- git cherry-pick
+- git rebase 
+- git stash
