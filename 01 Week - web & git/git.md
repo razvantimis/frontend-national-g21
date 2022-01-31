@@ -35,4 +35,4 @@ Weekend-ul asta, pe langa tema, sa va distract cu git :D
 Probleme
 1. Am facut branchul de tema din vecheul branch ( tema trecuta)
   a. Solutie: facem git checkout main, facem un nou branch si face copy past la cod
-  b. 
+  b. Solutia: sa stergem efectiv de pe branch ce nu vrem si facem commit
