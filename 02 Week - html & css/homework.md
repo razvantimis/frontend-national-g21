@@ -10,12 +10,12 @@ Tematica poate fi alesa de catre voi, cateva sugestii: retete culinare, educatie
 ** Focus pe structura html **
 ** CSS/Layout minimal  **
 
-1. Website va avea cel putin 3 pagini:
+0. Website va avea cel putin 3 pagini:
     1. home.html
     2. post-one.html, post-two.html
     4. contact.html
+1. menu care permite navigare spre contact.html, home.html ( o sa fie pe orice pagina)
 2. home.html va avea:
-    1. menu care permite navigare spre contact.html, category.html
     2. o lista de posturi - afisam un mic summary la cele doua posturi si link catre
     3. un footer 
 3. post-one.html & post-two.html =>  vom avea cel putin doua postari pe site in fisiere separate fiecare 
