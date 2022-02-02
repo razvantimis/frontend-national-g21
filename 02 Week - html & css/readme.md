@@ -13,7 +13,10 @@ Extensie de vscode: live server
 1. Cum este css? Cum il folosim?
 2. CSS Syntax 
 3. Base Selectors => type, class, id
-3. CSS Box Model => content-box vs border-box
+3. CSS Box Model => content-box vs border-box - https://alligator.io/css/box-sizing-property
 4. CSS Flex box
 
 BEM: http://getbem.com/naming/
+
+## Links 
+1. https://www.youtube.com/watch?v=qz0aGYrrlhU
