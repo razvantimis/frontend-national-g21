@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  contact
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* css in page */
+      div {
+        color: blue;
+        background-color: aqua;
+      }
+    </style>
+    <link rel="stylesheet" href="./contact.css">
+
+    <!-- 
+      selector {
+        key: value;
+        font-size: 12px;
+        color: blue;
+      }
+
+     -->
+  </head>
+  <body>
+    <!-- avem 3 moduri de a introduce css in paginile html -->
+    <!-- avem prioritati - una suprascrie regula de style de la alta
+      Cea mai apropriata regula
+      1. css inline - cea mai importanta
+      2. css infara pagini & css in page ( depinde ordinea lor de incarcare)
+       
+    -->
+    <!-- mode 1 - cu atribut -->
+    <div style="color: red;">content mode 1</div>
+    <!-- mode 2 - cu tag de <style> <style> -->
+    <div class="myFirstClass">mode 2</div>
+
+    <div id="myFirstId">contect 3</div>
+   
+  </body>
 </html>
