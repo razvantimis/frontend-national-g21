@@ -19,4 +19,5 @@ Extensie de vscode: live server
 BEM: http://getbem.com/naming/
 
 ## Links 
-1. https://www.youtube.com/watch?v=qz0aGYrrlhU
+1. https://www.youtube.com/watch?v=qz0aGYrrlhU - html
+2. https://www.youtube.com/watch?v=1PnVor36_40 - css
