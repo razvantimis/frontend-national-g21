@@ -17,7 +17,7 @@ Tematica poate fi alesa de catre voi, cateva sugestii: retete culinare, educatie
 2. home.html va avea:
     1. menu care permite navigare spre contact.html, category.html
     2. o lista de posturi - afisam un mic summary la cele doua posturi si link catre
-    3. un footer cu detali despre echipa
+    3. un footer 
 3. post-one.html & post-two.html =>  vom avea cel putin doua postari pe site in fisiere separate fiecare 
 4. contact.html => un formular de contact cu 3 inputuri: nume, email si text + button de submit
 
