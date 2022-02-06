@@ -7,18 +7,14 @@ Figma design: https://www.figma.com/file/FO2RgNsZtGg3MkwCU9SO2l/Blog?node-id=0%3
 Se doreste creerea unui website cu o tematica specifica. 
 Tematica poate fi alesa de catre voi, cateva sugestii: retete culinare, educatie financiara, poezie, cancan, news, video games, filme.
 
-** Focus pe CSS/Layout **
+Se continua tema precedenta, cerinte:
 
-1. Website va avea cel putin 3 pagini:
-    1. home.html
-    2. post-one.html, post-two.html
-    4. contact.html
-2. home.html va avea:
-    1. menu care permite navigare spre contact.html, category.html
-    2. o lista de posturi - afisam un mic summary la cele doua posturi si link catre
-    3. un footer cu detali despre echipa
-3. post-one.html & post-two.html =>  vom avea cel putin doua postari pe site in fisiere separate fiecare 
-4. contact.html => un formular de contact cu 3 inputuri: nume, email si text + button de submit
+1. folosirea de elemente html5
+2. folosim flex box pentru layout ( refolosim clasele de css )
+3. Facem responsive - in link-ul de figma sunt doua imagini cum ar trebui sa arate pe mobile
+3. facem un button de "go top" - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+
+
 
 ## Va puteti ajuta intre voi, folosind skype/zoom 
 ## Distractie!
