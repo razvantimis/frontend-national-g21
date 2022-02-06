@@ -35,3 +35,4 @@ Link google sheet: https://platforma.scoalainformala.ro/mod/url/view.php?id=8634
 ## Folosesc extensile:
  1. GitLens in vscode
  2. zsh https://ohmyz.sh/ cu plugins https://safjan.com/top-popular-zsh-plugins-on-github/ pentru terminat
+ 3. live server in vscode
