@@ -5,12 +5,13 @@
 4. `<a> <img>`
 5. * `<form> => <label> <input>, <select> <option>, <textarea>`
 6. * `<header>, <nav>, <main> ,<article>, <section> <aside>, <footer>`
-7. * Tabindex => pentru navigarea cu tab
+7. * `<ul> <li>`
+8. * Tabindex => pentru navigarea cu tab
 
 Extensie de vscode: live server
 
 ## 2. Intro CSS
-1. Cum este css? Cum il folosim?
+1. * Cum este css? Cum il folosim? ( CSS de la ce vine? )
 2. CSS Syntax 
 3. Base Selectors => type, class, id
 3. CSS Box Model => content-box vs border-box - https://alligator.io/css/box-sizing-property
