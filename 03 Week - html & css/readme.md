@@ -12,7 +12,7 @@
     1. Importance => `!important`
     2. Specificity => Thousands , Hundreds, Tens, Ones
     3. Source Order
-5. CSS Grid
+5. CSS Grid - https://css-tricks.com/snippets/css/complete-guide-grid/
 6. Bonus - https://tailwindcss.com/
 
 ## Data viitoare quiz din html & css
