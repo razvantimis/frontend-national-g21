@@ -15,8 +15,9 @@ Extensie de vscode: live server
 2. CSS Syntax 
 3. Base Selectors => type, class, id
 3. CSS Box Model => content-box vs border-box - https://alligator.io/css/box-sizing-property
-4. * CSS Flex box
-5. * Refolosirea css ( evitam duplicare ) - BEM: http://getbem.com/naming/
+4. * Display - https://www.w3schools.com/cssref/pr_class_display.asp
+5. * CSS Flex box
+6. * Refolosirea css ( evitam duplicare ) - BEM: http://getbem.com/naming/
 
 
 
