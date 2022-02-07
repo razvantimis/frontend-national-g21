@@ -25,3 +25,4 @@ Extensie de vscode: live server
 1. https://www.youtube.com/watch?v=qz0aGYrrlhU - html
 2. https://www.youtube.com/watch?v=1PnVor36_40 - css
 3. https://flexboxfroggy.com/#ro - flex box
+4. https://www.youtube.com/watch?v=fYq5PXgSsbE
