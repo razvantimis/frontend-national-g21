@@ -8,11 +8,17 @@
     <style>
       .box1 {
         border: 10px solid red;
-        padding: 10px;
+        /* padding spatiu intre content si border - 4 directi */
+        padding: 10px; 
+        /* padding: 10px; - pune in toate directile */
+        /* padding: 10px 5px; - sus si jos pune 10px, stanga si drepta pune 5px */
+        /* padding: 10px 5px 3px; - sus = 10px si stanga si drepta pune 5px si jos = 3px */
+        /* padding: 10px 5px 3px 1px; - sus = 10px si drepta = 5px si jos = 3px si stanga = 1px */
+        /* la fel si la margin  */
         margin: 60px;
         width: 200px;
         height: 200px;
-        box-sizing: border-box;
+        box-sizing: ;
         display: inline-block;
       }
       .box2 {
