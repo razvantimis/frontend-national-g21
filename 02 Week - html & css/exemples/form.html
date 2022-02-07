@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- login form  -->
+    <form>
+      <label for="user_name">User name</label>
+      <input type="text" id="user_name" name="user-name" />
+      <label for="user_password">User password</label>
+      <input type="password" id="user_password" name="password" />
+
+      <h2>Ai sub 18 ani?</h2>
+      <select name="dropdown-items">
+        <!-- text Da poate fi in mai mult limbi -->
+        <!-- value pentru a trimite la server valoare care o dorim noi -->
+        <option value="allow">Da</option>
+        <option value="deny">Nu</option>
+      </select>
+      <button type="submit">Login</button>
+    </form>
+
+    <!-- tipuri de input -->
+    <h2>Input text</h2>
+    <input type="text" />
+
+    <h2>Input checkbox / multi select</h2>
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <h2>Input radio</h2>
+    Optiune 1<input type="radio" name="option" /> Optiune 2<input
+      type="radio"
+      name="option"
+    />
+    Optiune 3<input type="radio" name="option" />
+    <h2>Input color ....</h2>
+    <!-- nu este suport pe IE -->
+    <input type="color" />
+
+    <!-- dropdown -->
+    <h2>Dropdown</h2>
+    <select name="dropdown-items">
+      <option>item 1 <b>curs</b></option>
+      <option>item 2 <i>nu merge</i></option>
+      <option>item 3</option>
+      <option>item 4</option>
+      <option>item 5</option>
+    </select>
+  </body>
+</html>
