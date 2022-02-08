@@ -1,0 +1,59 @@
+/* Box exemple */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  /* font-size: 12px; */
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  border: 5px solid grey;
+}
+
+.article1,
+.article2,
+.article3,
+.article4 {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.article1 {
+  background-color: red;
+}
+
+.article3 {
+  background-color: purple;
+}
+
+.article2 {
+  background-color: orange;
+}
+
+.article4 {
+  background-color: royalblue;
+}
+
+/* Position static */
+
+
+/* Position relative => top, right, left, bottom + z-index */
+
+
+/* Position absolute */
+
+
+/* Position fixed */
+
+
+/* Position sticky */
+/* .article1 {
+  position: sticky;
+  top: 10px
+} */
