@@ -1,3 +1,8 @@
+## Html
+1. `<header>, <nav>, <main> ,<article>, <section> <aside>, <footer>`
+2. `<ul> <li>`
+3.  Tabindex => pentru navigarea cu tab
+
 ## CSS Advanced
 0. CSS Flex box (align-items,  justify-content) - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 1. CSS Positioning => relative, absolute, fixed, static plus un exemplu cu z-index ( care este default value ?)
