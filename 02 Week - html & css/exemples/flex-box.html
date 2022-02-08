@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex box</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        /* div care are clasa container va fi flex */
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; este valoare default */
+        flex-direction: row;
+        /* flex-wrap ne ajuta la responsive */
+        /* flex-wrap: wrap; */
+      }
+
+      .box {
+        /* flex-basis: 33%; */
+        /* flex: 1 este prescurtare de la flex-grow: 1, flex-shrink: 1, flex-basic: 0% */
+        /* flex-shrink: 1;
+        flex-basis: 0%; */
+        flex: 1 1 200px;
+      }
+      .box-red {
+        /* flex-grow: 10; */
+        /* flex: 1; */
+
+        color: red;
+      }
+      .box-green {
+        /* flex: 10; */
+        /* flex-grow: 1;
+        flex-shrink: 10; */
+        color: green;
+      }
+      .box-style {
+        padding: 10px;
+        border: 2px solid black;
+        margin: 5px;
+      }
+
+      .box-4 {
+        /* este width daca flex-direction este row */
+        /* este height daca flex-direction este row */
+        /* flex-basis: 200px; */
+        /* flex-basis: 33%; */
+        /*  */
+      }
+    </style>
+
+    <div class="container">
+      <div class="box box-4 box-style box-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nihil
+        esse necessitatibus numquam cupiditate, quos libero iusto impedit
+        voluptas natus.
+      </div>
+      <div class="box box-1 box-style box-green">
+        Lorem ipsum dolor sit amet consectetur adipisicie.
+        <!-- <div class="box-style">
+          New div: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Dicta corporis velit esse eligendi fugiat voluptate exercitationem
+          tempore doloremque deleniti eaque accusamus, debitis ipsam architecto
+          unde veritatis ipsa. Voluptas, architecto odit.
+        </div> -->
+      </div>
+      <div class="box box-2 box-style box-red">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+        reprehenderit!
+      </div>
+      <div class="box box-3 box-style box-green">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+        temporibus, illo non totam odio nihil hic nostrum aliquam accusantium
+        eveniet impedit animi a accusamus ipsam voluptas! Alias, nobis? Cum,
+        doloribus! Consequuntur earum nemo autem, tempore alias excepturi
+        reprehenderit aliquid est sed illo odit quibusdam maxime! Odio dolorum
+        quae iste beatae.
+      </div>
+    </div>
+  </body>
+</html>
