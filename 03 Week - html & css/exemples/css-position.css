@@ -14,6 +14,9 @@ main {
   margin: 20px auto;
   border: 5px solid grey;
 }
+footer {
+  height: 2000px;
+}
 
 .article1,
 .article2,
