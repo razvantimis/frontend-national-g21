@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  /* height: 900px; */
+  flex-direction: row;
+  /* este pe main axis */
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* second axis */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  align-items: flex-start;
+  /* align-items: stretch; */
+
+
+}
+
+.box {
+  flex-basis: 10px;
+  /* flex-grow: 1; */
+  /* ca si min-width */
+}
+
+.box-red {
+  color: red;
+}
+.box-green {
+  color: green;
+}
+
+.box-style {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+/* media query */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries */
+
+/* anumite reguli de css se activeaza doar 
+cand viewportul are anumita dimensiune */
+
+/* sub 500px viewport width va pune background red pe box-uri */
+@media (max-width: 500px) {
+  .box-style {
+    background-color: red;
+  }
+  .box-green {
+    color: blue;
+  }
+
+  .box-red {
+    color: white;
+  }
+
+  .container { 
+     flex-direction: column;
+  }
+}
+
+/* pest 650px */
+@media (min-width: 650px) {
+  .box-style {
+    background-color: blue;
+  }
+  .box-red, .box-green {
+    color: white;
+  }
+}

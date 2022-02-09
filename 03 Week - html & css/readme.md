@@ -4,7 +4,7 @@
 3.  Tabindex => pentru navigarea cu tab
 
 ## CSS Advanced
-0. * CSS Flex box (align-items,  justify-content) - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+0. * CSS Flex box (align-items, justify-content) - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 1. * CSS Positioning => relative, absolute, fixed, static plus un exemplu cu z-index ( care este default value ?)
 2. Advance Selectors => combinators : => https://www.youtube.com/watch?v=Bcr70LIJcOk
     1. Descendent selector => space, >
