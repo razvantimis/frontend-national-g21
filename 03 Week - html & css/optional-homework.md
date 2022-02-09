@@ -1,5 +1,7 @@
 # [OPTIONAL] Layouting homework
 
+If the design is responsive then 2 point
+
 Implement the design using html and css.
 
 The font used in the layout is called "Muli". Use google to find it and use it in your layout.
