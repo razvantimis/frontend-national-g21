@@ -13,7 +13,8 @@ body {
   font-family: sans-serif;
 }
 header {
-  height: 50px;
+  flex-basis: 50px;
+  min-height: 50px;
   display: flex;
   justify-content: space-between;
   background-color: black;
