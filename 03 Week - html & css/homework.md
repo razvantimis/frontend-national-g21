@@ -12,7 +12,7 @@ Se continua tema precedenta, cerinte:
 1. folosirea de elemente html5
 2. folosim flex box pentru layout ( refolosim clasele de css )
 3. Facem responsive - in link-ul de figma sunt doua imagini cum ar trebui sa arate pe mobile
-3. facem un button de "go top" - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+3. facem un button de "go top" ( pozitional tot timpul jos )- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
 
 
 
