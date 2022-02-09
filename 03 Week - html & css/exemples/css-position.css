@@ -5,12 +5,14 @@
   margin: 0;
 }
 html {
-  /* font-size: 12px; */
+  font-size: 12px;
 }
 
 main {
   width: 500px;
   height: 500px;
+  /* margin => top + bottom = 20px iar left + right va fi auto */
+  /* sa centram un element */
   margin: 20px auto;
   border: 5px solid grey;
 }
@@ -44,19 +46,72 @@ footer {
 }
 
 /* Position static */
-
+/* toate elementele by default au position: static */
 
 /* Position relative => top, right, left, bottom + z-index */
+/* top,bottom, right, left sunt relative la pozitia elementului iniatiala */
+.article3 {
+  /* position: relative; */
+  /* top: 10px este fata de pozitia lui anterioara */
+  /* top: 10px;
+  left: 20px; */
+  /* top: 10px; */
+  /* bottom: 40px; */
+  /* right: 20px; */
+}
+
+/* z-index */
+.article3 {
+  /* va spune article3 in spate la article2 */
+  z-index: -1;
+}
+
+.article2 {
+  z-index: 10;
+}
+
 
 
 /* Position absolute */
+/* nu mai afecteaza spatiere elementelor in pagina */
 
+/* nu conteaza daca punem pe header */
+/* header {
+  position: relative;
+} */
+
+main {
+  /* daca scoatam position: relative; atunci va fi relativ fata de pagina  */
+  /* position: relative;  */
+}
+.article1 {
+  /* se raporteaza la primul container cu position: relative 
+  si daca nu avem la pagina web    */
+  position: absolute;
+  /* top: 10px;
+  left: 30px; */
+  bottom: 0px;
+  right: 0px;
+}
 
 /* Position fixed */
-
-
+/* ramane fix acolo unde apare initial, nu este efectat de scroll */
+.article2 {
+  position: fixed;
+  top: 0px; 
+}
 /* Position sticky */
-/* .article1 {
-  position: sticky;
-  top: 10px
-} */
+
+
+.article2 {
+   /* position: sticky;
+  top: 0px;  */
+}
+
+
+.article1 {
+  /* ascunde fara sa ocupa spatiu */
+  /* display: none;  */
+   /* ascunde dar ocupa spatiu */
+  visibility: hidden;
+}
