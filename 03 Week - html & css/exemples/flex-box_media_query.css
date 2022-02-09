@@ -19,8 +19,6 @@
   /* align-items: flex-end; */
   align-items: flex-start;
   /* align-items: stretch; */
-
-
 }
 
 .box {
@@ -61,8 +59,8 @@ cand viewportul are anumita dimensiune */
     color: white;
   }
 
-  .container { 
-     flex-direction: column;
+  .container {
+    flex-direction: column;
   }
 }
 
@@ -71,7 +69,23 @@ cand viewportul are anumita dimensiune */
   .box-style {
     background-color: blue;
   }
-  .box-red, .box-green {
+  .box-red,
+  .box-green {
     color: white;
   }
+}
+
+/* mobile first la design */
+/* peste 900px */
+
+@media (min-width: 900px) {
+}
+/* peste 700px */
+
+@media (min-width: 700px) {
+}
+
+/* peste 500px */
+
+@media (min-width: 500px) {
 }
