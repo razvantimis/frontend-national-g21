@@ -8,6 +8,7 @@
 3. Recursive functions
 4. Closure
 
+## Next time quiz - JS & DOM
 
 ## Links:
 
