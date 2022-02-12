@@ -18,7 +18,3 @@
 4. Advance topic about hoisting, scope, closure: https://www.youtube.com/watch?v=Nt-qa_LlUH0
 5. https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
-1 - 1
-2 - 1
-3 - f(1) + f(2) = 1 + 1
-4 - f(2) + f(3) = 1 + 2 
