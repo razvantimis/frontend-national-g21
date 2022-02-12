@@ -1,4 +1,4 @@
-# Edabit homework (Optional)
+# Edabit homework (Optional) +2p activitate
 
 Try resolving the tasks from every link.
 
