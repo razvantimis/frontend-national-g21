@@ -111,13 +111,9 @@ section {
    ================================= */
 
 
-
-
-
-
-
-
-
+/* * {
+  background-color: red;
+} */
 
 
 
@@ -127,10 +123,23 @@ section {
    Direct children
    ================================= */
 
+/* selector1 selector2 { 
+  color: red;
+ }
+*/
+/* cu spatiu intre selectori selectam orice p in interiorul elementul cu clasa .direct-children  */
+/* .direct-children p {
+  color: red;
+} */
+
+/* section p {
+  color: red;
+} */
+/* selectam tot copii si nepotii etc */
 .direct-children p {
   color: red;
 }
-
+/* selecteaza doar copii directi */
 .direct-children > p {
   color: green;
 }
@@ -139,7 +148,7 @@ section {
    Adjacent siblings
    ================================= */
 
-.adjacent-sibling .box+.box {
+.adjacent-sibling .box + .box {
   background: red;
   margin-left: 15px;
 }
@@ -159,7 +168,7 @@ section {
    ================================= */
 
 .general-sibling .box~.box {
-  background: red;
+  background: red ;
 }
 
 
@@ -187,7 +196,7 @@ section {
 }
 
 a[target] {
-  color: darkblue;
+  color: green;
 }
 
 a[href="about.html"] {
@@ -210,17 +219,29 @@ a[href$=".ca"] {
   color: blue;
 }
 
+.another-link[data] {
+  color: green
+}
+
 /* =================================
    Attributes
    ================================= */
 
 /* pseudo class */
 .pseudo-selectors .link:hover {
-  color: red;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 #modal {
   visibility: hidden;
+  position: fixed;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #18314F;
 }
 
 #modal:target {
@@ -228,14 +249,15 @@ a[href$=".ca"] {
   color: greenyellow;
 }
 
-.pseudo-selectors>.exemple-3 .box:nth-child(2n) {
+/* .pseudo-selectors>.exemple-3 .box:nth-child(2n+1){
   background-color: red;
-}
+} */
 
-.pseudo-selectors>.exemple-3 .box:last-child {
+/* .pseudo-selectors>.exemple-3 .box:last-child {
   background-color: hotpink;
 }
-
+*/
+/* aplicam style pe clasa box daca nu avem si clasa box-selected  */
 .pseudo-selectors>.exemple-3 .box:not(.box-selected) {
   background-color: hotpink;
 }
