@@ -16,8 +16,8 @@
     1. Importance => `!important`
     2. Specificity => Thousands , Hundreds, Tens, Ones
     3. Source Order
-4. Responsive - media query
-5. Box model => Collapsing Margins => https://www.youtube.com/watch?v=4nGZ8OULcY0
+4. * Responsive - media query
+5. Bonus: Box model => Collapsing Margins => https://www.youtube.com/watch?v=4nGZ8OULcY0
 6. Bonus: Refolosirea css ( evitam duplicare ) - BEM: http://getbem.com/naming/
 7. Bonus: CSS Grid - https://css-tricks.com/snippets/css/complete-guide-grid/
 8. Bonus: https://tailwindcss.com/

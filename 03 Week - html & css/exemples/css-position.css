@@ -50,14 +50,11 @@ footer {
 
 /* Position relative => top, right, left, bottom + z-index */
 /* top,bottom, right, left sunt relative la pozitia elementului iniatiala */
+
 .article3 {
-  /* position: relative; */
-  /* top: 10px este fata de pozitia lui anterioara */
-  /* top: 10px;
-  left: 20px; */
-  /* top: 10px; */
-  /* bottom: 40px; */
-  /* right: 20px; */
+  position: relative;
+  top: 20px;
+  left: 20px;
 }
 
 /* z-index */
@@ -69,8 +66,6 @@ footer {
 .article2 {
   z-index: 10;
 }
-
-
 
 /* Position absolute */
 /* nu mai afecteaza spatiere elementelor in pagina */
@@ -97,21 +92,19 @@ main {
 /* Position fixed */
 /* ramane fix acolo unde apare initial, nu este efectat de scroll */
 .article2 {
-  position: fixed;
-  top: 0px; 
+  /* position: fixed; */
+  top: 0px;
 }
 /* Position sticky */
 
-
 .article2 {
-   /* position: sticky;
+  /* position: sticky;
   top: 0px;  */
 }
-
 
 .article1 {
   /* ascunde fara sa ocupa spatiu */
   /* display: none;  */
-   /* ascunde dar ocupa spatiu */
+  /* ascunde dar ocupa spatiu */
   visibility: hidden;
 }
