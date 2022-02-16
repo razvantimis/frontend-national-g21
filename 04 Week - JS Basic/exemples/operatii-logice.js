@@ -84,3 +84,4 @@ console.log(string1 + "12") // test12
 var string1 = 'test';
 console.log(string1[0]) // t
 console.log(string1[1]) // e
+
