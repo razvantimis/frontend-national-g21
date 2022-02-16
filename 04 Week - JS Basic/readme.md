@@ -7,6 +7,7 @@
     1. operatii pe string-uri 
     2. operatii artimetice
     3. operatii logice - Truthy - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+    4. == vs ===
 4. Arrays and Objects - structuri compuse
 5. Flow control: if , for, switch, while, do {} while()
 
