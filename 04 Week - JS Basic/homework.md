@@ -2,6 +2,7 @@
 
 var array = [ 1, 2, 3, 4, 56, 232, 45, 12, 4, 6, 8, 8,8, 1, 1]
 Using control structures (if, for, while), do the following::
+## Display in browser console
 
 1.  display in the console the numbers from 1 to 20
 2.  display in the console the odd numbers from 1 to 20
