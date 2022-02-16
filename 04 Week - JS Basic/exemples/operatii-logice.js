@@ -62,11 +62,25 @@ console.log(!!null) // false
 
 var number1 = 10;
 
+// compara doar valorile
 console.log(number1 == 10) // true
 
 var number1 = 10;
 // cand folosim orice operatie , js incerca sa transforme valorile pentru a efecta operatia
 console.log(number1 == "10")
 
+// compara valorile si tipurile
 // valoare din number1 == 10 && typeof number1 == typeof "10"
 console.log(number1 === "10") // verifica valorile dar si tipul
+
+
+// operatii pe string-uri 
+// un string este format din mai mult caractere
+var string1 = 'test';
+
+console.log(string1 + "12") // test12
+
+// Un string este vazut ca un array
+var string1 = 'test';
+console.log(string1[0]) // t
+console.log(string1[1]) // e
