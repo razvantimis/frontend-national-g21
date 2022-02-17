@@ -10,7 +10,7 @@
     4. == vs ===
 4. * Arrays and Objects - structuri compuse
 5. * Flow control: if , for, switch, while, do {} while()
-
+6. * Function basic
 
 # 02. Workshop lista cumparaturi - Live Share extensie de vscode ( sa va faceti login cu github )
 https://code.visualstudio.com/learn/collaboration/live-share
