@@ -8,11 +8,12 @@
     2. operatii artimetice
     3. operatii logice - Truthy - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     4. == vs ===
-4. Arrays and Objects - structuri compuse
-5. Flow control: if , for, switch, while, do {} while()
+4. * Arrays and Objects - structuri compuse
+5. * Flow control: if , for, switch, while, do {} while()
 
 
-# 02. Workshop lista cumparaturi - https://codesandbox.io/ ( sa va faceti login cu github )
+# 02. Workshop lista cumparaturi - Live Share extensie de vscode ( sa va faceti login cu github )
+https://code.visualstudio.com/learn/collaboration/live-share
 
 ## Links:
 
