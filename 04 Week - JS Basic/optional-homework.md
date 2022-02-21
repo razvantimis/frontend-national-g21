@@ -2,7 +2,7 @@
 
 Try resolving the tasks from every link.
 
-Easy:
+Easy: ( +1 )
 
 https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
 
@@ -24,7 +24,7 @@ https://edabit.com/challenge/kLa2w7m4h849k8rmW
 
 
 
-Medium:
+Medium: (+1 )
 
 https://edabit.com/challenge/4gzDuDkompAqujpRi
 
@@ -51,6 +51,7 @@ Faceti un folder cu tema si cate un fisier easy.js, medium.js, hard.js cu soluti
 
 De exemplu pentru link https://edabit.com/challenge/3LpBLgNRyaHMvNb4j faceti un fisier easy.js in care puneti la inceput
 
+Se poate partial, tot easy 1p
 ```js
 // 1
 // https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
