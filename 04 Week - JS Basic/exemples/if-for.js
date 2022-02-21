@@ -15,6 +15,38 @@ if (number1 % 2 == 0) {
 if (number1 % 2 == 0) console.log('number1 este par')
 
 
+if(number1 % 2 == 0){
+  console.log('number1 este par')
+} else { // este optional else
+  // daca conditia este false intra aici
+  console.log('number1 este impar')
+}
+
+// if-uri imbricate
+// nu avem limita la else if
+if(number1 > 30){  // number1 > 30
+  console.log('Numar1 este mai mare ca 30')
+} else if(number1 > 20){ // number1 > 20 && number1 =< 30
+  console.log('Numar1 este intre 20 si 30')
+} else { // number1 < 20
+  console.log('Numar1 este mai mic sau egal decat 20')
+}
+
+// Conditional (ternary) operator
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#conditional_ternary_operator
+var age = 30;
+
+var myStatus;
+if(age >= 18){
+  myStatus = 'adult'
+} else {
+  myStatus = 'minor'
+}
+// este tot una cu
+var myStatus = (age >= 18) ? 'adult' : 'minor';
+
+// --------------- FOR ------------------
+// ne ajuta sa repetam o bucata de cod de un numar stiut de ori
 // for - ne ajuta sa repetam cod
 // for(initializare; conditie logica de oprire; incrementare)
 for (var index = 0; index < 10; index = index + 1) {
