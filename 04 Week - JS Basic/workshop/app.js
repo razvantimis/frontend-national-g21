@@ -66,7 +66,7 @@ var shopList2 = []
 shopList2.push({ pret: 31, cantitate: 1, name: "Paine integrala" })
 shopList2.push({ pret: 34, cantitate: 3, name: "Bere" })
 
-console.log('Total de plata shopList2 = ', getTotalPrice(shopList2))
+console.log('Total de plata shopList2 = ', getTotalPrice(shopList2) + "RON")
 
 
 
