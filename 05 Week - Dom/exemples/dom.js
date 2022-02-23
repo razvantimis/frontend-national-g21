@@ -42,7 +42,7 @@ function createHtmlElments() {
 }
 
 // Update
-function updateHtmlElements(){
+function updateHtmlElements() {
   var headerHtml = document.querySelector('header');
 
   // inline style
@@ -50,6 +50,7 @@ function updateHtmlElements(){
 
   // add class
   headerHtml.classList.add('curs');
+  headerHtml.classList.remove("curs");
 
   // replace de content
   // headerHtml.textContent = "" // stergem tot din interior la header
@@ -61,7 +62,7 @@ function updateHtmlElements(){
 // Delete
 // Se sterge doar elementul selectat
 // De unde stergm si ce stergem
-function deleteHtmlElements(){
+function deleteHtmlElements() {
   var headerHtml = document.querySelector('header'); // vom sterge headr-ul
   // de unde stergem? din <body>
 
@@ -77,16 +78,16 @@ function deleteHtmlElements(){
 
 // Events
 
-function eventsHtml(){
+function eventsHtml() {
 
   var firstImg = document.querySelector('img');
 
   // folosind prop onclick
-  firstImg.onclick = function(){
+  firstImg.onclick = function () {
     console.log('onclick: Sa dat click pe imagine')
   }
 
-  firstImg.addEventListener('click', function(event){
+  firstImg.addEventListener('click', function (event) {
     // primi un parametru event - care va descrie evenimentul care sa intampla
     console.log(event);
     // event.target - este elementul pe care sa facut click
@@ -94,5 +95,14 @@ function eventsHtml(){
   })
 }
 
-eventsHtml();
 
+
+
+
+// Safe DOM Manipulation
+// Se poate intampla ca elementul din pagina html sa nu fie parsate de browser , deci nu exista
+// Daca putem script de js in header atunci el se va executa inaite sa se incarce elementele din pagina html
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  eventsHtml();
+});
