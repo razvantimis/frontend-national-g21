@@ -95,10 +95,6 @@ function eventsHtml() {
   })
 }
 
-
-
-
-
 // Safe DOM Manipulation
 // Se poate intampla ca elementul din pagina html sa nu fie parsate de browser , deci nu exista
 // Daca putem script de js in header atunci el se va executa inaite sa se incarce elementele din pagina html
