@@ -73,4 +73,26 @@ function deleteHtmlElements(){
 
 }
 
-deleteHtmlElements()
+// deleteHtmlElements()
+
+// Events
+
+function eventsHtml(){
+
+  var firstImg = document.querySelector('img');
+
+  // folosind prop onclick
+  firstImg.onclick = function(){
+    console.log('onclick: Sa dat click pe imagine')
+  }
+
+  firstImg.addEventListener('click', function(event){
+    // primi un parametru event - care va descrie evenimentul care sa intampla
+    console.log(event);
+    // event.target - este elementul pe care sa facut click
+    console.log('addEventListener: Sa dat click pe imagine')
+  })
+}
+
+eventsHtml();
+
