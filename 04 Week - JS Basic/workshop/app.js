@@ -38,13 +38,7 @@ var toPay = 0;
 // Vom calcula suma totala de plata
 for (var i = 0; i < shopList.length; i++) {
   var produs = shopList[i];
-
-  // console.log(produs)
-  // console.log(produs.pret)
-  // console.log(produs.cantitate)
-
   var totalPricePerProdus = produs.pret * produs.cantitate;
-  // console.log(totalPricePerProdus);
 
   toPay = toPay + totalPricePerProdus;
 
@@ -53,13 +47,26 @@ for (var i = 0; i < shopList.length; i++) {
 console.log('Total de plata = ', toPay, ' lei')
 
 
+// return opresete executia functie
+function getTotalPrice(list) {
+  var toPay = 0;
+  for (var i = 0; i < list.length; i++) {
+    var produs = list[i];
+    var totalprice = produs.pret * produs.cantitate;
+    toPay = toPay + totalprice;
+
+  }
+  return toPay;
+}
+
+console.log(getTotalPrice(shopList))
 
 
+var shopList2 = []
+shopList2.push({ pret: 31, cantitate: 1, name: "Paine integrala" })
+shopList2.push({ pret: 34, cantitate: 3, name: "Bere" })
 
-
-
-
-
+console.log('Total de plata shopList2 = ', getTotalPrice(shopList2))
 
 
 
