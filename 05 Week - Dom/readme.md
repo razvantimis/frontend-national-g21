@@ -9,7 +9,9 @@
 4. CSS manipulation
 5. Events
 
+
 # 2. Workshop Todo List - Live share ( sa va faceti login cu github )
+1. Kahhot
 
 
 ## Links:
