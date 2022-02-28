@@ -15,6 +15,10 @@
 
 1. Kahhot
 2. Template literals ( es6 )
+3. Code styling 
+    - https://javascript.info/coding-style ( formatting )
+    - https://www.w3schools.com/js/js_conventions.asp
+    - https://github.com/airbnb/javascript
 
 ## Links:
 
