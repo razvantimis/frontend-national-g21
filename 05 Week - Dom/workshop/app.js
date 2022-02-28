@@ -5,6 +5,19 @@
 // 3. Sa stergem un TODO
 // 4. Sa bifam un toda - este complet
 
+function createTodo(text) {
+    var todoHtml = document.createElement("li")
+    todoHtml.innerText = text;
+    todoHtml.addEventListener('click', function(event){
+        todoHtml.parentElement.removeChild(todoHtml);
+    });
+
+    var inputCheckbox = document.createElement('input');
+    inputCheckbox.type = 'checkbox'
+    todoHtml.appendChild(inputCheckbox)
+
+    return todoHtml;
+}
 
 //  1. Sa afisam o lista de TODO items
 // <ul> <li>item 1 </li>   </ul>
@@ -12,19 +25,17 @@ var todoList = ["cumparaturi", "plata facturi", "scoate cainele afara", "apa"];
 
 var ulHTML = document.createElement("ul");
 for (var i = 0; i < todoList.length; i++) {
-    var item = todoList[i];
-    var itemHTML = document.createElement("li");
-    itemHTML.innerHTML = item;
-    var checkbox = document.createElement('input')
-    checkbox.type = 'checkbox'
-    itemHTML.appendChild(checkbox)
+    var todoValue = todoList[i];
+    var itemHTML = createTodo(todoValue)
+   
     ulHTML.appendChild(itemHTML)
-    itemHTML.onclick = function (event) {
-        // daca folosim variabile itemHTML atunci
-        // valoarea ei va fi tot timpul ultimul element li create
-        console.log("S-a dat click pe", event.target) // event.target - pe cine sa dat click
-        ulHTML.removeChild(event.target)
-    }
+    // itemHTML.onclick = function (event) {
+    //     // daca folosim variabile itemHTML atunci
+    //     // valoarea ei va fi tot timpul ultimul element li create
+    //     console.log("S-a dat click pe", event.target) // event.target - pe cine sa dat click
+    //     ulHTML.removeChild(event.target)
+    // }
+
 }
 // il punem in body
 document.body.appendChild(ulHTML)
@@ -36,13 +47,14 @@ var toDoButton = document.getElementById("to-do-button");
 
 toDoButton.onclick = function () {
     console.log("se da click! valoare din input este", toDoInput.value)
-    var itemNou = document.createElement("li")
-    itemNou.innerHTML = toDoInput.value
+    // var itemNou = document.createElement("li")
+    // itemNou.innerHTML = toDoInput.value
+    // itemNou.onclick = function (event) {
+    //     console.log("S-a dat click pe item", event.target)
+    //     ulHTML.removeChild(event.target)
+    // }
+    var itemNou = createTodo(toDoInput.value)
     ulHTML.appendChild(itemNou)
-    itemNou.onclick = function (event) {
-        console.log("S-a dat click pe item", event.target)
-        ulHTML.removeChild(event.target)
-    }
 }
 
 
