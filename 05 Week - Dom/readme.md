@@ -24,3 +24,4 @@
 
 1. Javascript Dom Manipulation: https://www.youtube.com/watch?v=wiozYyXQEVk
 2. The Document Object Model: https://www.youtube.com/watch?v=wKBu_dEaF9E
+3. innerText vs textContent - https://stackoverflow.com/questions/35213147/difference-between-textcontent-vs-innertext

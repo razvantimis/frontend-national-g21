@@ -55,6 +55,8 @@ function updateHtmlElements() {
   // replace de content
   // headerHtml.textContent = "" // stergem tot din interior la header
   headerHtml.innerHTML = "<nav> <ul> <li> item 1</li> </ul> </nav>"
+  // nu tine cont de html tag
+  headerHtml.innerText = "<nav> <ul> <li> item 1</li> </ul> </nav>"
 }
 
 // updateHtmlElements();
