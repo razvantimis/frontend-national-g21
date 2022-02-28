@@ -5,4 +5,6 @@
 2. Stergerea de comments
 
 
+-1p  - din tema este formatarea codului + name convention
+
 Explicatile le gasiti in pdf atasat.
