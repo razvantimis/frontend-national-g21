@@ -26,15 +26,16 @@ var todoList = ["cumparaturi", "plata facturi", "scoate cainele afara", "apa"];
 var ulHTML = document.createElement("ul");
 for (var i = 0; i < todoList.length; i++) {
     var todoValue = todoList[i];
-    var itemHTML = createTodo(todoValue)
+    var itemHTML = createTodo(todoValue) // scope global + hoisting
+    // solutia este sa folosim let
    
     ulHTML.appendChild(itemHTML)
-    // itemHTML.onclick = function (event) {
-    //     // daca folosim variabile itemHTML atunci
-    //     // valoarea ei va fi tot timpul ultimul element li create
-    //     console.log("S-a dat click pe", event.target) // event.target - pe cine sa dat click
-    //     ulHTML.removeChild(event.target)
-    // }
+    itemHTML.onclick = function () {
+        // daca folosim variabile itemHTML atunci
+        // valoarea itemHTML va fi tot timpul ultimul element li create
+        console.log("S-a dat click pe", itemHTML) // event.target - pe cine sa dat click
+        ulHTML.removeChild(itemHTML)
+    }
 
 }
 // il punem in body
