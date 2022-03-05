@@ -7,6 +7,8 @@
 3. Recursive functions
 4. Closure
 
+# Kahoot -https://play.kahoot.it/v2/?quizId=4fcf7ad3-a380-49a9-96b1-e194fc46ce05
+# Workshop the playar
 ## Next time quiz - JS & DOM
 
 ## Links:
