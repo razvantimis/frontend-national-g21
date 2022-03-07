@@ -1,0 +1,12 @@
+.game-container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.player {
+  width: 30px;
+  height: 30px;
+  /* background-image: url("https://pngset.com/images/super-mario-run-announced-for-ios-new-super-mario-bros-new-super-mario-bros-person-human-transparent-png-2754054.png"); */
+  background-color: red;
+  position: relative;
+}

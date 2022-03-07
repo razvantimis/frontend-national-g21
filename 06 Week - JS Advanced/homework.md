@@ -19,6 +19,5 @@
 3. Folositi if-uri
 
 ## Optional
-
-
-3. Adaugam numar de vieti la player ( +1 activitate )
+1. Adaugam numar de vieti la player ( +1 activitate )
+2. Sa adaugam obstacole care scad din viata
