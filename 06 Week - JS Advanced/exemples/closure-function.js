@@ -17,5 +17,7 @@ function sum(a){
 
 // sum(5) va returna o functie
 const sumWith5 = sum(5);
-console.log(sumWith5(6)) // 5 + 6 = 11
+console.log('sumWith5(6) = ', sumWith5(6)) // 5 + 6 = 11
+
+console.log('sum(5)(6) =', sum(5)(6))
 // Daca nu se face closure pe innerSum cu a = 5, sar pierde parametrul
