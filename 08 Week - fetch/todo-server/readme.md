@@ -13,5 +13,8 @@ Pentru instalare va rog sa parcurgeti urmatori pasi:
 # Api - thunder client - vscode extensie
 
 1. Get all todos: GET http://localhost:3000/todos
-2. Get todos by id : GET http://localhost:3000/todos/1624471170301
+2. Get todos by id : GET http://localhost:3000/todos/:id 
+3. Add todo : POST http://localhost:3000/todos + body
+3. Remove todo : DELETE http://localhost:3000/todos/:id
+3. Upadate todo : PUT http://localhost:3000/todos/:id + body
 
