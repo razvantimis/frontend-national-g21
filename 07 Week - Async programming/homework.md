@@ -20,3 +20,5 @@ Task 2: Gasiti un exemplu aici https://www.w3schools.com/jsref/met_win_clearinte
 Task 3: Trebuie sa faceti un restart, adica va incepe de la 00:00:00. Puteti sa va folositi de Task2, pentru a opri timerul si dupa sa resetati valorile din browser iar la final ii dati start
 
 Task 4: Se va creea un nou element in pagina cu valoare de la momentul apasari butonului de save
+- 00:21:34
+- 00:25:56
