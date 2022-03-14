@@ -9,7 +9,6 @@ const hourHtml = document.getElementById('hour');
 const minuteHtml = document.getElementById('minute');
 const secundeHtml = document.getElementById('secunde');
 
-
 console.log(hourHtml)
 console.log(minuteHtml)
 console.log(secundeHtml)
