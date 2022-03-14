@@ -10,6 +10,7 @@ Tasks:
 3. Adaugati un button plus functionalitate pentru reset timer
 4. Adaugati un button plus functionalitate pentru save timer
 
+## Recomand sa folosi functii pentru fiecare. De exemplu: startTimer, stopTimer, resetTimer, saveTimer
 Tips:
 General: Se fac in html 4 buttoane cu id-uri unice si se inregistreaza in fisier de js eventul de click
 
