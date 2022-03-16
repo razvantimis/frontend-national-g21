@@ -3,6 +3,9 @@
 ## Recap - callback, async
 
 1. What is API? - Restful api ( http )
+  - API = application programming interface
+  - API - se defineste cum comunica doua aplicati prin internet
+  - Cel mai popular este Http => Restful api / Graphql api
 2. JSON.stringly & JSON.parse - un obiect js sub forma de string (text)
 3. What is AJAX? ( implementare )
 4. Fetch - Work with external data
