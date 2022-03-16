@@ -7,7 +7,7 @@
 - PATCH - facem update partial ( ca si PUT, dar nu dam toata resursa )
 - OPTIONS - verifica servarul
 
-## Restfull api
+## Restfull api - comunica folosind JSON
 Exemplu: https://fakestoreapi.com
 
 base url server = https://fakestoreapi.com

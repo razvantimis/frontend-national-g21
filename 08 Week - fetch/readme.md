@@ -7,7 +7,7 @@
   - API - se defineste cum comunica doua aplicati prin internet
   - Cel mai popular este Http => Restful api / Graphql api
 2. JSON.stringly & JSON.parse - un obiect js sub forma de string (text)
-3. What is AJAX? ( implementare )
+3. What is AJAX? ( implementare ) - ne ajuta sa facem request-urile catre un api
 4. Fetch - Work with external data
 5. Promise - Callback hell
 
