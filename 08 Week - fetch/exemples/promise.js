@@ -1,4 +1,5 @@
 // Promise
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 // Fetch returneaza promisiunea ca vom primi datele de la server
 const promise = fetch('https://jsonplaceholder.typicode.com/todos', {
   method: 'GET' // POST/DELETE
