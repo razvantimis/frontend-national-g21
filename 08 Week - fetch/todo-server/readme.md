@@ -3,7 +3,7 @@
 Pentru instalare va rog sa parcurgeti urmatori pasi:
 
 1. git clone https://github.com/razvantimis/frontend-national-g11 / download zip
-1. Download Node.js and install
+1. Download Node.js and install - check sa rulati in terminat node -v
 1. Deschidem un terminal (git bash sau cmd) in directorul todo-server ( aflat in 08 week )
 1. Rulam: `npm install`
 1. Rulam: `npm start` - cand vream sa pornim serverul se va rula din nou
