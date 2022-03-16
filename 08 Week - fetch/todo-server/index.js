@@ -57,8 +57,8 @@ router.put('/todos/:id', async ctx => {
   const indexTodo = db.data.todos.findIndex(todo => todo.id === ctx.params.id);
   const oldTodo = db.data.todos[indexTodo];
   const updateTodo = {
-    ...ctx.request.body,
     ...oldTodo,
+    ...ctx.request.body,
   }
 
   db.data.todos[indexTodo] = updateTodo
