@@ -11,7 +11,7 @@
 4. Fetch - Work with external data
 5. Promise - Callback hell
 
-## Workshop todo
+## Workshop todo + kahoot
 
 1. Recap
 2. Workshop todo app
