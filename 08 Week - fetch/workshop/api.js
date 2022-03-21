@@ -11,4 +11,14 @@ function getTodos() {
     .then(function (response) {
       return response.json()
     })
+} 
+
+function createToDo(newToDo){
+  return fetch(`${baseUrl}/todos`, {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json' // ii spunem la server ca trimitem json
+    },
+    body: JSON.stringify(newToDo)
+  })
 }

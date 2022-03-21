@@ -9,20 +9,12 @@ const toDoInput = document.getElementById("todo-input");
 const toDoButton = document.getElementById("todo-button");
 
 toDoButton.onclick = function () {
-  console.log(toDoInput.value)
   const newTodo = {
     name: toDoInput.value,
     completed: false
   }
 
-  fetch("http://localhost:3000/todos", {
-    method: "POST",
-    headers: {
-      'Content-Type': 'application/json' // ii spunem la server ca trimitem json
-    },
-    body: JSON.stringify(newTodo)
+  createToDo(newTodo).then(function () {
+    location.reload();
   })
-    .then(function () {
-    })
 }
-
