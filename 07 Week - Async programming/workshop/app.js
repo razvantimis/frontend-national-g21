@@ -32,7 +32,7 @@ let secunde = 55;
 let minute = 59;
 let hour = 0;
 setInterval(
-  function () {
+  () => {
     console.log("se executa in fiecare secunda")
     secunde = secunde + 1;
 
