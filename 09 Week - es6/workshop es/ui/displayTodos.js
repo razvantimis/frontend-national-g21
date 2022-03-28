@@ -3,12 +3,14 @@
 import { getTodos } from "../api.js"
 import createTodoHtml from "./createTodo.js"
 
+console.log('cod global care se executa cand este importat')
+
 async function displayTodos() {
   const todos = await getTodos()
   const ulHTML = document.createElement("ul");
   for (let i = 0; i < todos.length; i++) {
-    // console.log(todos[i])
-    const itemHTML = createTodoHtml(todos[i].name, todos[i].id);
+    const { name, id } = todos[i];
+    const itemHTML = createTodoHtml(name, id);
 
     // const deleteBtn = getDeleteButton(todos[i].id)
     // itemHTML.appendChild(deleteBtn);

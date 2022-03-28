@@ -1,5 +1,6 @@
+import { createToDoServer } from "./api.js";
 // 2. Sa permitem adaugarea unui TODO
-console.log("addTodo.js -", baseUrl);
+// console.log("addTodo.js -", baseUrl); acum este privat doar in fisierul api.js
 
 // Task1: Facem un input + button
 // Task2: Sa inregistram un event pe button. Cand se face click sa obtinem valoare din input
@@ -13,10 +14,6 @@ toDoButton.onclick = async function () {
     name: toDoInput.value,
     completed: false
   }
-
-  // createToDoServer(newTodo).then(function () {
-  //   location.reload();
-  // })
 
   await createToDoServer(newTodo)
   location.reload();
