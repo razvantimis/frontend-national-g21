@@ -17,6 +17,6 @@
    4. Destructuring Rename
 7. Spread operator / Function Rest parameters / Copy obj
 8. Enhanced Object Literals
-9. ES Module ( import export ) ??
+9. ES Module ( import export )
 
 ## Workshop - Blog 
