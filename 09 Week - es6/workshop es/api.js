@@ -41,3 +41,4 @@ const createToDoServer = async (newToDo) => {
 
   return response.json();
 }
+export { getTodos }
