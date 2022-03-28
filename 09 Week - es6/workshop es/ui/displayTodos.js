@@ -1,6 +1,6 @@
 
 // 1. Sa afisam o lista de TODO items
-import { getTodos } from "./api.js"
+import { getTodos } from "../api.js"
 import createTodoHtml from "./createTodo.js"
 
 async function displayTodos() {
@@ -18,5 +18,4 @@ async function displayTodos() {
   document.body.appendChild(ulHTML)
 }
 
-displayTodos();
-
+export default displayTodos;
