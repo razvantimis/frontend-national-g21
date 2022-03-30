@@ -8,6 +8,7 @@
 
 ### Task
 
-- Sa afisam o masina si cand apasam arrow right merge in dreapta
-  - Facem o clasa Car
+- Sa afisam o masina 
+  - cand facem un obiect de tip masina atunci sa apara in DOM
+- cand apasam arrow right merge in dreapta
   -
