@@ -11,14 +11,13 @@ class Car {
     carImg.style.left = '0';
     carImg.style.backgroundColor = color;
 
-    this.stopCar = true;
+    // this.stopCar = true;
     // let thisCar = this; // this este car object - mai multe in this-problem.js
     carImg.addEventListener("click", () => {
-      console.log("sa dat click", this.stopCar)
+      // console.log("sa dat click", this.stopCar)
       // this.stopCar = false;
-      this.stopCar = !this.stopCar;
-      activeCar = this;
-
+      // this.stopCar = !this.stopCar;
+      activeCar = this; // this este carul pe care sa dat click
     })
 
 
