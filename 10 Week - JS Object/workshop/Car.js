@@ -23,13 +23,20 @@ class Car {
 
     this.carElement = carImg;
 
-    document.body.appendChild(carImg);
+    document.body.appendChild(carImg);                                         
   }
 
   moveRight() {
     // if (this.stopCar == false) {
     const oldLeft = parseInt(this.carElement.style.left);
     this.carElement.style.left = oldLeft + 10 + 'px';
+    // }
+  }
+
+  moveLeft() {
+    // if (this.stopCar == false) {
+    const oldLeft = parseInt(this.carElement.style.left);
+    this.carElement.style.left = oldLeft - 10 + 'px';
     // }
   }
 

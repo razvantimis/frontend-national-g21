@@ -23,4 +23,8 @@ document.addEventListener('keydown', function (event) {
       activeCar.moveRight();
     }
   }
+
+  if (event.code === 'ArrowLeft' && activeCar) {
+      activeCar.moveLeft();
+  }
 })
