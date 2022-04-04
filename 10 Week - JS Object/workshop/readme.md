@@ -8,7 +8,10 @@
 
 ### Task
 
-- Sa afisam o masina 
+1. Sa afisam o masina 
   - cand facem un obiect de tip masina atunci sa apara in DOM
-- cand apasam arrow right merge in dreapta
-  -
+  - cand apasam arrow right merge in dreapta
+
+2. "Daca dam click pe o masina ii se va porni motorul"
+  - trebui sa ascultam la eventul de click pe masina
+  - daca nu sa dat click pe masina, nu merge masina in drepta
