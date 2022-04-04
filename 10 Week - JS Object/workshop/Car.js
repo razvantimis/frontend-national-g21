@@ -1,5 +1,7 @@
+
+export let activeCar = null;
 class Car {
-  constructor() {
+  constructor(color) {
     console.log('se creaza o noua masina')
     const carImg = document.createElement('img');
     carImg.src = "./car.svg";
@@ -7,6 +9,7 @@ class Car {
     carImg.style.position = 'relative';
     carImg.style.top = '0';
     carImg.style.left = '0';
+    carImg.style.backgroundColor = color;
 
     this.stopCar = true;
     // let thisCar = this; // this este car object - mai multe in this-problem.js
@@ -14,6 +17,8 @@ class Car {
       console.log("sa dat click", this.stopCar)
       // this.stopCar = false;
       this.stopCar = !this.stopCar;
+      activeCar = this;
+
     })
 
 
@@ -23,10 +28,10 @@ class Car {
   }
 
   moveRight() {
-    if (this.stopCar == false) {
-      const oldLeft = parseInt(this.carElement.style.left);
-      this.carElement.style.left = oldLeft + 10 + 'px';
-    }
+    // if (this.stopCar == false) {
+    const oldLeft = parseInt(this.carElement.style.left);
+    this.carElement.style.left = oldLeft + 10 + 'px';
+    // }
   }
 
 }
