@@ -8,4 +8,5 @@ car1.moveRight();
 car1.moveRight();
 car1.moveRight();
 car1.moveRight();
+
 car2.moveRight();
