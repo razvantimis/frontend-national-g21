@@ -10,10 +10,10 @@ class Car {
 
     this.stopCar = true;
     // let thisCar = this; // this este car object - mai multe in this-problem.js
-    carImg.addEventListener("click",  () => { 
-      console.log('thisCar =', this)
+    carImg.addEventListener("click", () => {
       console.log("sa dat click", this.stopCar)
-      this.stopCar = false;
+      // this.stopCar = false;
+      this.stopCar = !this.stopCar;
     })
 
 

@@ -4,7 +4,7 @@
 
 1. Daca dam click pe o masina ii se va porni motorul iar daca apasam arrow right va merge in fata
 2. Sa avem un button de generate car, acesta va adauga mai o masina pe ecran
-3. Daca vream sa pornim alta masina va trebui sa dam click pe ea
+3. Doar ultima masina pe care sa dat click va fi activa
 
 ### Task
 
@@ -15,3 +15,4 @@
 2. "Daca dam click pe o masina ii se va porni motorul"
   - trebui sa ascultam la eventul de click pe masina
   - daca nu sa dat click pe masina, nu merge masina in drepta
+3. Sa putem porni cate o masina
