@@ -1,6 +1,8 @@
 
 export let activeCar = null;
 class Car {
+  #carElement;
+
   constructor(color) {
     console.log('se creaza o noua masina')
     const carImg = document.createElement('img');
