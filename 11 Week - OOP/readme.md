@@ -1,6 +1,6 @@
 # OOP
 
-0. Arrow function with this
+0. [x] Arrow function with this
 1. Recap object & Prototype
 2. Encapsulation
 3. Inheritance
