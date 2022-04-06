@@ -12,42 +12,51 @@
 // 3. cauta in prototype-ul de la Object, daca nu gaseste
 // 4. primi erroare
 
+// Folosin extends din es6 pentru a mosteni
+
 // Exemplu
 class Food {
-  constructor(color){
+  constructor(color) {
     this.color = color;
   }
 
-  toString(){
+  toString() {
     return 'toString din Food'
   }
 
-  eat(){
+  eat() {
     console.log('eat this food', this)
   }
 }
 
+// super se refera la clasa din care mostenim
+// Putem apelam constructorul de la clasa de unde mostenim
+
 class Pizza extends Food {
-
-
-  toString(){
-    return 'toString din Pizza'
+  constructor(color, greutate) {
+    super(color); // apelam constructorul de la clasa Food
+    this.greutate = greutate;
   }
 
-  fastEat(){
+  toString() {
+    const foodToString = super.toString(); // apelam toString de la clasa Food
+    return foodToString + '  --- toString din Pizza'
+  }
+
+  fastEat() {
 
   }
 }
 
 class Meat extends Food {
 
-  slowEat(){
+  slowEat() {
 
   }
 
 }
 
-const pizza1 = new Pizza('red');
+const pizza1 = new Pizza('red', '2kg');
 console.log(pizza1);
 // pizza1.eat();
 console.log(pizza1.toString());
