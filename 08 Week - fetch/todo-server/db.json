@@ -3,17 +3,29 @@
     {
       "completed": true,
       "name": "merg la plimbare",
-      "id": "1624471170302"
+      "id": "1624471170302",
+      "checked": true
     },
     {
       "name": "mers acasa",
-      "completed": false,
-      "id": "1647068908937"
+      "completed": true,
+      "id": "1647068908937",
+      "checked": false
     },
     {
-      "name": "merg acasa33323",
+      "name": "da",
+      "completed": true,
+      "id": "1648973565845"
+    },
+    {
+      "name": "sdasdas",
+      "completed": true,
+      "id": "1648973705070"
+    },
+    {
+      "name": "test",
       "completed": false,
-      "id": "1648490614174"
+      "id": "1649483238311"
     }
   ]
 }
