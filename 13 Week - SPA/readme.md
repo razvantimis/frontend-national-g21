@@ -12,7 +12,7 @@ https://javascript.info/modules-intro
 3. Bundle tool: Vite - https://vitejs.dev/ - Un Tool pentru code de js
 4. SPA
 
-# Workshop Todo
+# Workshop Shopping refactor
 
 Pasii pentru a face un proiect folosind vite (https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 1. Rulam in terminal comanda 'npm init vite@latest --template vanilla' ( ne va creea un proiect )
