@@ -75,8 +75,13 @@ class Bottle {
   }
 
   sayHi() {
-
+    console.log(this);
   }
 }
 
 const bottle4 = new Bottle('15l', 'yellow')
+
+bottle4.drinkWater() // this din metoda drinkWater va fi bottle4
+bottle4.sayHi(); // this = bottle4
+
+// This este acelasi intre toate metodele din clasa nostra

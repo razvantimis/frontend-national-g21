@@ -1,12 +1,19 @@
-import Car, { activeCar } from './Car.js'
+import Car from './Car.js'
+let activeCar = null;
 
-const car1 = new Car('red'); // se apeleaza functia constructor din clasa Car
-const car2 = new Car('blue');
+
+const handleCarClick = (activCarLocal) => {
+  console.log('sa dat click pe car1')
+  activeCar = activCarLocal
+}
+
+const car1 = new Car('red', handleCarClick); // se apeleaza functia constructor din clasa Car
+const car2 = new Car('blue', handleCarClick);
 const listCar = [car1, car2];
 
 const addCarHtml = document.getElementById("addCarHtml");
 addCarHtml.addEventListener("click", () => {
-  const car = new Car();
+  const car = new Car('green', handleCarClick);
   listCar.push(car);
 })
 
@@ -22,9 +29,5 @@ document.addEventListener('keydown', function (event) {
     if (activeCar) {
       activeCar.moveRight();
     }
-  }
-
-  if (event.code === 'ArrowLeft' && activeCar) {
-      activeCar.moveLeft();
   }
 })

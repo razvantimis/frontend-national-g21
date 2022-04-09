@@ -1,5 +1,9 @@
+
+export let activeCar = null;
 class Car {
-  constructor() {
+  #carElement;
+
+  constructor(color) {
     console.log('se creaza o noua masina')
     const carImg = document.createElement('img');
     carImg.src = "./car.svg";
@@ -7,17 +11,39 @@ class Car {
     carImg.style.position = 'relative';
     carImg.style.top = '0';
     carImg.style.left = '0';
+    carImg.style.backgroundColor = color;
 
-    this.carElement = carImg;
+    // this.stopCar = true;
+    // let thisCar = this; // this este car object - mai multe in this-problem.js
+    carImg.addEventListener("click", () => {
+      // console.log("sa dat click", this.stopCar)
+      // this.stopCar = false;
+      // this.stopCar = !this.stopCar;
+      activeCar = this; // this este carul pe care sa dat click
+    })
 
-    document.body.appendChild(carImg);
+
+    this.#carElement = carImg;
+
+    document.body.appendChild(carImg);                                         
   }
 
   moveRight() {
-    const oldLeft = parseInt(this.carElement.style.left);
-    this.carElement.style.left = oldLeft + 10 + 'px';
+    // if (this.stopCar == false) {
+    const oldLeft = parseInt(this.#carElement.style.left);
+    this.#carElement.style.left = oldLeft + 10 + 'px';
+    // }
+  }
+
+  moveLeft() {
+    // if (this.stopCar == false) {
+    const oldLeft = parseInt(this.#carElement.style.left);
+    this.#carElement.style.left = oldLeft - 10 + 'px';
+    // }
   }
 
 }
+
+
 
 export default Car;
