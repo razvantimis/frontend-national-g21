@@ -1,18 +1,17 @@
 class Player {
-
   static createElement() {
     // nu avem acces la this
-    let player = document.createElement("div")
-    player.classList.add("player")
-    player.style.top = '0px';
-    player.style.left = '0px';
+    let player = document.createElement("div");
+    player.classList.add("player");
+    player.style.top = "0px";
+    player.style.left = "0px";
 
     return player;
   }
 
   constructor(container) {
     this.playerDiv = Player.createElement();
-    container.appendChild(this.playerDiv)
+    container.appendChild(this.playerDiv);
   }
 
   moveDown() {
@@ -24,7 +23,8 @@ class Player {
     }
   }
 
-  moveLeft() { // aici putem logica de move left
+  moveLeft() {
+    // aici putem logica de move left
     const oldLeft = parseInt(this.playerDiv.style.left);
     const newLeft = oldLeft - 10;
     if (newLeft >= 0) {
@@ -32,7 +32,8 @@ class Player {
     }
   }
 
-  moveRight() { // aici putem logica de move ri
+  moveRight() {
+    // aici putem logica de move ri
     const oldLeft = parseInt(this.playerDiv.style.left);
     const newLeft = oldLeft + 10;
     if (newLeft <= 370) {
@@ -40,11 +41,12 @@ class Player {
     }
   }
 
-  moveUp() { // aici putem logica de move ri
+  moveUp() {
+    // aici putem logica de move ri
     const oldTop = parseInt(this.playerDiv.style.top);
     const newTop = oldTop - 10; // 10px , 20px
     if (newTop >= 0) {
-      this.playerDiv.style.top = newTop + 'px';
+      this.playerDiv.style.top = newTop + "px";
     }
   }
 }
