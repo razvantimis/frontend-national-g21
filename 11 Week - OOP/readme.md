@@ -7,6 +7,6 @@
 4. Prototype chain ( toString ex)
 5. Composition
 6. Polymorphism
-7. Static method/props & Hosting on Class??
+7. * Static method/props & Hosting on Class??
 
 # Workshop - The Player
