@@ -27,6 +27,9 @@ class ElementMove {
     }
   }
 
+  /**
+   * Logica care misca un element in sus folosind style.top
+   */
   moveUp() {
     // aici putem logica de move ri
     const oldTop = parseInt(this.element.style.top);
