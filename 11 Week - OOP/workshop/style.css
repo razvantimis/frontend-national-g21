@@ -10,3 +10,10 @@
   background-color: red;
   position: relative;
 }
+
+
+.monster {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
