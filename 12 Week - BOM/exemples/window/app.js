@@ -18,3 +18,5 @@ window.parseInt = function () { // hacking , am inlocuim parseInt
 // ne ajuta sa facem design custom in functie de ecranul utilizatorului, din js
 console.log(window.screen)
 console.log(screen);
+
+
