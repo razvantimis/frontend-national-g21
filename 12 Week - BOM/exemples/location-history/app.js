@@ -1,4 +1,6 @@
 // Location / History
+// https://developer.mozilla.org/en-US/docs/Web/API/Location
+// https://developer.mozilla.org/en-US/docs/Web/API/History
 
 // Navigarea intre pagini in browser se face prin browser history
 // Noi putem controla browser history folosind history
