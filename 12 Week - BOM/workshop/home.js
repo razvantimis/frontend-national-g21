@@ -11,7 +11,6 @@ async function getProducts() {
 }
 
 
-
 getProducts().then(products => {
   console.log(products);
   createProductListHtml(products)
