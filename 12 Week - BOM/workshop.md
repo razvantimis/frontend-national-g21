@@ -8,8 +8,8 @@ Posibil sa avem ca server fakestoreapi
 
 Tasks:
 
-1. Sa facem in fisier html si js - home.html / home.js
-2. Sa facem request la server => sa avem o functie care ne da produsele 
+1. [X] Sa facem in fisier html si js - home.html / home.js
+2. [X] Sa facem request la server => sa avem o functie care ne da produsele 
 3. Sa facem o functie care primeste lista de produse si le afiseaza
 4. 
 5.
