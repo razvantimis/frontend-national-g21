@@ -57,3 +57,7 @@ localStorage.setItem('looginUser', JSON.stringify(user));
 // la fel ca local storage 
 
 // sessionStorage.setItem('counterSession', "342")
+
+
+// In local storage pastram password sau nu?
+// Nu este recomandat, poate fi usor furata - cross site script
