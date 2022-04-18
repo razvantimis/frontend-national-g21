@@ -17,6 +17,7 @@ getProducts().then(products => {
 
 // Cum arata un cos de produse?
 const shopCart = [
+  // { id: 1, title: 'Phone 1', price: 342, quantity: 1 }
 ]
 
 function addProductToCart(product) {
