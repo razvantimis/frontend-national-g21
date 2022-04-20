@@ -1,4 +1,4 @@
-# Frontend - Modularization
+# Frontend - Modularization - SPA
 
 1. Import export - es6 module -
 Links: 

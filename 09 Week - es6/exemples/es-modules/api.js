@@ -6,7 +6,9 @@ const getTodos = async () => {
   const todos = await response.json()
   return todos
 }
+const test1 = 10;
 
 export {
-  getTodos
+  getTodos,
+  test1,
 }
