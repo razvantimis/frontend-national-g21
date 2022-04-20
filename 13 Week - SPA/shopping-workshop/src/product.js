@@ -6,20 +6,23 @@ export async function getProducts() {
   return products;
 }
 
+const shopCart = [
+  // { id: 1, title: 'Phone 1', price: 342, quantity: 1 }
+]
+
 function addProductToCart(product) {
   const existProduct = shopCart.find(el => el.id === product.id);
   if (existProduct == undefined) {
     // daca nu exista product in shopCart atunci facem push cu quanity:1
     product.quantity = 1;
 
-    const shopCart = [
-      // { id: 1, title: 'Phone 1', price: 342, quantity: 1 }
-    ]
     shopCart.push(product);
   } else {
     // daca exista atunci trebui sa crestem quanity
     existProduct.quantity += 1; // nu trebui sa facem push in array pentru ca avem referinta din array
   }
+
+  console.log(shopCart)
 }
 
 export function createProductListHtml(listOfProducts) {
