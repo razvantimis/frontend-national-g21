@@ -10,7 +10,7 @@ https://javascript.info/modules-intro
     2. In terminal rulam 'npm init'
   Exemplu de package - https://github.com/bendrucker/parse-int
 3. Bundle tool: Vite - https://vitejs.dev/ - Un Tool pentru code de js
-4. SPA
+4. * SPA
 
 # Workshop Shopping refactor
 
