@@ -15,5 +15,5 @@ https://javascript.info/modules-intro
 # Workshop Shopping refactor
 
 Pasii pentru a face un proiect folosind vite (https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
-1. Rulam in terminal comanda 'npm init vite@latest --template vanilla' ( ne va creea un proiect )
+1. Rulam in terminal comanda 'npm create vite@latest --template vanilla' ( ne va creea un proiect )
 2. Setam numele proiectului ( care va fi si numele folder-ului)
