@@ -1,0 +1,14 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test222": "echo \"Razvan test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parse-int": "^1.0.3"
+  }
+}
