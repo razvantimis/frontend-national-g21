@@ -1,4 +1,4 @@
-## The Player with Monster - OOP Style
+## The Player with Monster - vite tools
 
 1. Facem proiectul folosind vite
 2. Vom fi mutat codul existent 
