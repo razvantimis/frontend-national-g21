@@ -1,22 +1,21 @@
 import './style.css'
-import { createProductListHtml, shopCart } from './src/product';
+import { getProducts, createProductListHtml, shopCart } from './src/product';
 
 
 function createHomePage(appHtml) {
   const homePage = document.createElement('div');
-  // getProducts().then(products => {
-  //   const productContainer = createProductListHtml(products)
+  getProducts().then(products => {
+    const productContainer = createProductListHtml(products)
+    homePage.appendChild(productContainer)
+  })
 
-  //   document.querySelector('#app').appendChild(productContainer)
-  // })
-
-  const list = [
-    { id: 1, title: 'Phone 1', price: 342 },
-    { id: 2, title: 'Phone 2', price: 342 },
-    { id: 3, title: 'Phone 3', price: 342 }
-  ]
-  const productContainer = createProductListHtml(list)
-  homePage.appendChild(productContainer)
+  // const list = [
+  //   { id: 1, title: 'Phone 1', price: 342 },
+  //   { id: 2, title: 'Phone 2', price: 342 },
+  //   { id: 3, title: 'Phone 3', price: 342 }
+  // ]
+  // const productContainer = createProductListHtml(list)
+  // homePage.appendChild(productContainer)
 
 
   appHtml.appendChild(homePage);

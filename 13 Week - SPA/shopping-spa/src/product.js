@@ -25,6 +25,7 @@ function addProductToCart(product) {
   console.log(shopCart)
 }
 
+
 export function createProductListHtml(listOfProducts) {
   const productContainer = document.createElement('div')
   productContainer.classList.add('products')
@@ -37,9 +38,17 @@ export function createProductListHtml(listOfProducts) {
           <h2>${productValue.title}</h2>
           <h3>Price: ${productValue.price} $</h3>
     `
-
+    productHtml.onclick = () => {
+        const appHtml = document.querySelector('#app');
+        appHtml.innerHTML = "";
+        appHtml.innerHTML = `
+        <h2>${productValue.title}</h2>
+        <h3>Price: ${productValue.price} $</h3>
+        <img src="${productValue.image}" style="width: 150px">
+        `
+      // productHtml.inne
+    } 
     productContainer.appendChild(productHtml);
-
     const button = document.createElement("button");
     button.innerText = "Add to cart";
     productHtml.appendChild(button);
