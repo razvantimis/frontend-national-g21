@@ -12,6 +12,11 @@
   padding: 10px;
 }
 
+.product:hover {
+  background-color: rgb(211, 211, 211);
+  cursor: pointer;
+}
+
 .product h2 {
   font-size: 20px;
 }

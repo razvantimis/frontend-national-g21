@@ -1,0 +1,1 @@
+const product = { id: 1, title: 'Phone 1', price: 342 }

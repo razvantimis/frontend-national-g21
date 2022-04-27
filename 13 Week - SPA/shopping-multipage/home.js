@@ -47,7 +47,9 @@ function createProductListHtml(listOfProducts) {
         <h3>Price: ${productValue.price} $</h3>
         `
     productContainer.appendChild(productHtml);
-
+    productHtml.onclick = function (){
+      location.href = `./product.html?id=${productValue.id}`
+    }
     const button = document.createElement("button");
     button.innerText = "Add to cart";
     productHtml.appendChild(button);
@@ -62,4 +64,5 @@ function createProductListHtml(listOfProducts) {
 //   { id: 2, title: 'Phone 2', price: 342 },
 //   { id: 3, title: 'Phone 3', price: 342 }
 // ]
+
 // createProductListHtml(list)
