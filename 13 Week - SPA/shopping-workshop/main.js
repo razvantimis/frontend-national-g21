@@ -36,8 +36,8 @@ const linkHome = document.querySelector('#home');
 let pageClick = 0;
 
 linkCart.addEventListener('click', () => {
-  appHtml.innerHTML = "";
-  createShopCartPage(appHtml);
+  appHtml.innerHTML = ""; // stergem tot din app
+  createShopCartPage(appHtml); // refacem pagina in div app
   pageClick++;
   console.log(pageClick);
 
