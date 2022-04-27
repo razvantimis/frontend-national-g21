@@ -6,7 +6,7 @@ export async function getProducts() {
   return products;
 }
 
-const shopCart = [
+export const shopCart = [
   // { id: 1, title: 'Phone 1', price: 342, quantity: 1 }
 ]
 

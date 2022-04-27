@@ -1,5 +1,6 @@
 import './style.css'
-import { getProducts, createProductListHtml } from './src/product';
+import { createProductListHtml, shopCart } from './src/product';
+
 
 function createHomePage(appHtml) {
   const homePage = document.createElement('div');
@@ -23,11 +24,19 @@ function createHomePage(appHtml) {
 
 function createShopCartPage(appHtml) {
   const cartPage = document.createElement('div');
-  cartPage.innerHTML = `
-    Aici o sa fie Cart Page
-  `
+ 
+  // 2. Partea de display a lor
+  for(let i=0; i<shopCart.length; i++) {
+    const cartItem = document.createElement('div')
+    const shopItem = shopCart[i];
+    cartItem.innerHTML = `<h2>Title: ${shopItem.title} Price: ${shopItem.price}$ Quantity: ${shopItem.quantity}</h2>`    
+
+    cartPage.appendChild(cartItem);
+  }
+
   appHtml.appendChild(cartPage);
 
+  // 1. Partea de date - adica ce se adauga in cart ??
 }
 const appHtml = document.querySelector('#app');
 const linkCart = document.querySelector('#cart');
