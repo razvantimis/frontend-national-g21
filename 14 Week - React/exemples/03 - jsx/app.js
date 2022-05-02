@@ -21,7 +21,7 @@ function Post() {
   }
   return (
     <div className="test" style={postStyle}>
-      <h1>Title 1</h1>
+      <h1>Title 1 {postStyle.backgroundColor}</h1>
       <p>Conuinut post</p>
     </div>
   )
