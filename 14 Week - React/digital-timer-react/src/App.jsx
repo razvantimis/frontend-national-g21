@@ -1,34 +1,52 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 
+let intervalId = null;
 // Orice functie componenta se executa de fiecara data cand se schimba statul
 function Clock() {
-  let [secunde, setSecunde] = useState(55);
-  let [minute, setMinute] = useState(59);
-  let [hour, setHour] = useState(0);
-
+  let [clock, setClock] = useState({
+    secunde: 55,
+    minute: 59,
+    hour: 1
+  });
 
   // De cate ori se executa setInterval? O singura data
   console.log('sa executa functia Clock')
   useEffect(() => {
     console.log('se apeleaza doar odata ------------')
-    setInterval(
+    intervalId = setInterval(
       () => {
         console.log("se executa in fiecare secunda")
-        setSecunde(secunde + 1);
 
-        if (secunde == 60) {
-          setMinute(minute + 1);
-          setSecunde(0);
-        }
+        setClock((clock) => {
 
-        if (minute == 60) {
-          setHour(hour + 1);
-          setMinute(0);
-        }
+          let secunde = clock.secunde + 1;
+          let minute = clock.minute;
+          let hour = clock.hour;
+          if (secunde == 60) {
+            minute = minute + 1;
+            secunde = 0;
+          }
+
+          if (minute == 60) {
+            hour = hour + 1;
+            minute = 0;
+          }
+
+          return {
+            secunde,
+            minute,
+            hour
+          }
+        })
       },
       1000 // avem in milisec
     )
+
+    return () => {
+      // se apeleza in momentul in care componenta face unmount ( dispare din UI )
+      clearInterval(intervalId);
+    }
   }, [])
   // useEffect(() => {
   //   console.log('se apeleaza doar daca se schimba secunde ------------')
@@ -44,9 +62,9 @@ function Clock() {
     //   setSecunde(secunde + 1)
     // }}
     >
-      <span>{hour}</span> :
-      <span>{minute}</span> :
-      <span>{secunde}</span>
+      <span>{clock.hour}</span> :
+      <span>{clock.minute}</span> :
+      <span>{clock.secunde}</span>
     </div>
   )
 }
