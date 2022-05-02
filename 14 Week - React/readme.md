@@ -7,14 +7,14 @@
 0. What is React Js? Why we need it?
 1. Hello word ( ReactJs vs DOM) https://reactjs.org/docs/add-react-to-a-website.html
 2. Post - title and content ( ReactJs vs DOM) 
-2. JSX Post - style,className
-3. Components - functie/class, 
-4. Components with props
-5. Add click event -
-6. State -  Counter App
-7. Condition rendering
-8. State vs props https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props
-9. React Developer Tools ( un plugin de browser - chrome, firefox, opera )
+3. JSX Post - style,className
+4. Components - functie/class, 
+5. Components with props
+6. Add click event -
+7. State -  Counter App
+8. Condition rendering
+9. State vs props https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props
+9.2. React Developer Tools ( un plugin de browser - chrome, firefox, opera )
 10. Life cycle of components https://reactjs.org/docs/state-and-lifecycle.html - blog server
 11. “source of truth” https://reactjs.org/docs/lifting-state-up.html 
 
