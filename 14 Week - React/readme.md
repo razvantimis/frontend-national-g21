@@ -1,5 +1,6 @@
 # React JS
- https://reactjs.org/tutorial/tutorial.html
+ - https://reactjs.org/tutorial/tutorial.html
+ - https://github.com/razvantimis/my-react
 
 ## Start digital timer hooks
 
@@ -7,7 +8,7 @@
 0. What is React Js? Why we need it?
 1. Hello word ( ReactJs vs DOM) https://reactjs.org/docs/add-react-to-a-website.html
 2. Post - title and content ( ReactJs vs DOM) 
-3. JSX Post - style,className
+3. JSX Post - style, className
 4. Components - functie/class, 
 5. Components with props
 6. Add click event -
