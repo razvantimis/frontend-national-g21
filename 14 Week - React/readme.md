@@ -23,7 +23,7 @@ Care este diferenta?
 
 10. React Developer Tools ( un plugin de browser - chrome, firefox, opera )
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-11. Life cycle of components https://reactjs.org/docs/state-and-lifecycle.html - blog server
+11. Life cycle of components https://reactjs.org/docs/state-and-lifecycle.html
 12. “source of truth” https://reactjs.org/docs/lifting-state-up.html 
 
 Babel jsx to js

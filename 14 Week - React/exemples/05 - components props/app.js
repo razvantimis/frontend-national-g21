@@ -17,7 +17,7 @@ class PostClass extends React.Component {
 
 
 //Function Componenta Post + props
-function Post(props) {
+function Todo(props) {
   const postStyle = {
     border: '1px solid black',
     backgroundColor: 'red'
@@ -41,7 +41,7 @@ function App() {
   const obj1 = { test: 1, key: 'value' }
   return (
     <div>
-      <Post
+      <Todo
         title="Title 1"
         age={34}
         callbackFn={() => { console.log('apeleaza') }}
@@ -63,9 +63,9 @@ function App() {
       
        */}
       <PostClass title="Title 2" />
-      <Post title="Title 3" />
+      <Todo title="Title 3" />
       <PostClass title="Title 4" />
-      <Post title="Title 5" />
+      <Todo title="Title 5" />
     </div>
   )
 }
