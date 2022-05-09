@@ -6,3 +6,8 @@
 3. Deploy a website 
   - https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
   - https://vitejs.dev/guide/static-deploy.html
+
+Frameworks: 
+- https://remix.run/
+- https://nextjs.org/
+- https://www.gatsbyjs.com/
