@@ -43,19 +43,18 @@ function Product(props) {
     <div className='product'>
       <h2>{props.title}</h2>
       <h3>{props.price}$</h3>
-      <button>Add</button>
+      <button onClick={props.onClickProduct}>Add</button>
     </div>
   )
 }
 
-function Home() {
+function Home(props) {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
     getProducts().then((produse) => {
       setProducts(produse)
     })
-    console.log('sa vedem')
   }, []);
 
   const arrayOfProductCmps = products.map((product, index) => (
@@ -63,6 +62,9 @@ function Home() {
       key={index}
       title={product.title}
       price={product.price}
+      onClickProduct={(event) => {
+        props.onAddCart(product)
+      }}
     />
   ));
 

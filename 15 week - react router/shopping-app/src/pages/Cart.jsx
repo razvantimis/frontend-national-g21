@@ -1,11 +1,6 @@
 
-const shopCart = [
-  { id: 1, title: 'IPhone 1', price: 342, quantity: 1 },
-  { id: 2, title: 'IPhone 13', price: 34665, quantity: 10 },
-]
-
-function Cart() {
-  const shopList = shopCart.map((item, index) => (
+function Cart(props) {
+  const shopList = props.shopCart.map((item, index) => (
     <li>
       <h2>{item.title}</h2>
       <h3>Price: {item.price}</h3>
@@ -14,7 +9,7 @@ function Cart() {
   ))
   return (
     <div>
-      <ul class="shop-list">
+      <ul className="shop-list">
         {shopList}
       </ul>
     </div>
