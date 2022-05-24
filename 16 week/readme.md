@@ -1,6 +1,6 @@
 # Final
 
-1. Recap react
+1. Proiect individual organizare
 2. Feedback - trello board
-3. Proiect individual organizare
+3. React - if we will have time
 
