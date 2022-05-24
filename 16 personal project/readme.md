@@ -42,4 +42,6 @@ Detalii despre proiect le gasiti in personal-project.pdf
 
 In google sheet-ul cursului gasiti mai multe detalii, fiecare va trebui sa se programeze in google sheet pentru feedback in sectiunea feedback proiect. Va fi tinut pe link de zoom de la curs pentru feedback.
 
+## Pe platforma va trebui sa faceti submit cu linkul de la repo unde ati pus codul de la proiect
+
 
