@@ -3,7 +3,7 @@
 Toata idee proiectului este sa aveti un site online care sa va reprezinte pe voi, astfel puteti mai usir sa aplicati la un job.
 Acel website trebui sa aiba minim 3 pagini:
 - home sau about me => aici vom face o scurta introducere despre noi cu focus pe partea de programare
-- O pagina cu CV nostru, aici ar trebui ca cineva de la HR sa poata vedea toata experinta vostru ( ar fi frumos sa oferiti posibilitatea de download)
+- O pagina cu CV nostru, aici ar trebui ca cineva de la HR sa poata vedea toata experinta vostru ( ar fi frumos sa oferiti posibilitatea de download )
 - O pagina cu proiectele facute la curs si nu numai - tot ce ati lucrat ( este obligatoriu )
 
 Va putei inspira de la alt website-ul de genul, la un search pe google gasiti sute
@@ -12,7 +12,7 @@ Detalii despre proiect le gasiti in personal-project.pdf
 ## Cerinte minime
 
 1. 3 pagini cu navigare intre ele - obligatoriu paginile: home, my cv, proiecte mele 
-2. Toata paginile sa fie responsive 
+2. Toata paginile sa fie responsive - mobile si desktop resolution
 3. Sa fie public proiectul cu https://pages.github.com/ ( inaite sa va apucati de cod sa citi documentatia de la github pages si sa testati), va trebui sa pot intra pe proiect folosind un url public in internet
 4. Sa facem un pic de research asupra designului - cum va fi layout etc ( aici puteti folosi tools precum figma ) - inaite de coding
 5. Trello (https://trello.com/) va faceti un board si va puneti taskurile - inaite de coding
